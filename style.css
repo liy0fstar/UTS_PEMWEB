@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f4f8; /* Warna latar belakang yang lebih cerah */
+}
+
+header {
+    background-color: #0056b3; /* Warna biru gelap */
+    color: white;
+    padding: 20px;
+}
+
+.logo-container {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.profile-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #0056b3; /* Border foto */
+}
+
+.section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white; /* Latar belakang putih untuk bagian */
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+}
+
+.certificate-slider {
+    display: flex;
+    overflow-x: auto;
+}
+
+.certificate-slider img {
+    width: 150px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px; /* Sudut bulat untuk gambar sertifikat */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4; /* Latar belakang footer */
+}
